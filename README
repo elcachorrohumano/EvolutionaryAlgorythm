@@ -1,0 +1,33 @@
+# NBA Schedule Generator
+
+Este programa en Python genera calendarios de partidos para equipos de la NBA utilizando algoritmos evolutivos.
+
+## Descripción
+
+El código está diseñado para crear calendarios de partidos de la NBA teniendo en cuenta la distancia de viaje de los equipos y la distribución de juegos locales y de visitante.
+
+## Funcionalidades
+
+- Generación de calendarios de partidos para una temporada de la NBA.
+- Cálculo de la distancia total recorrida por los equipos en el calendario.
+- Optimización basada en algoritmos evolutivos para mejorar la distribución de partidos locales y de visitante.
+
+## Uso
+
+1. Ejecutar el archivo `nba_schedule_generator.py`.
+2. Observar la salida en la consola o los archivos generados.
+3. Experimentar con diferentes parámetros o métodos de generación de calendarios.
+
+## Requisitos
+
+- Python 3.x
+- Paquetes: geopy, numpy, pandas, matplotlib
+
+## Ejemplo de Uso
+
+```python
+# Ejecutar el algoritmo evolutivo para generar el mejor calendario
+best_schedule = evolutionary_algorythm()
+
+# Convertir el mejor calendario a un DataFrame
+best_schedule_df = schedule_to_dataframe(best_schedule[0])
